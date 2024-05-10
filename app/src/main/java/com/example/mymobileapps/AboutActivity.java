@@ -26,7 +26,7 @@ public class AboutActivity extends AppCompatActivity {
             {
                 // Handle the click event here
                 // For example, you can open a link in a web browser
-                Uri uri = Uri.parse("https://github.com/ajimnasib?tab=repositories");
+                Uri uri = Uri.parse("https://github.com/ajimnasib/electricity-bill-calculator");
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
             }

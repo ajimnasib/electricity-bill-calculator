@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 {
                     Intent shareIntent = new Intent(Intent.ACTION_SEND);
                     shareIntent.setType("text/plain");
-                    shareIntent.putExtra(Intent.EXTRA_TEXT, "Download the application from the following Google Drive link: \n \n https://drive.google.com/drive/folders/1hnfhI0SGxXwOC47ZbojXzZUZi1SgFgg4?usp=sharing\n" +
+                    shareIntent.putExtra(Intent.EXTRA_TEXT, "Here is my source code: \n \n https://github.com/ajimnasib/electricity-bill-calculator\n" +
                             "\n" +
                             "\n" +
                             "*Developer Information:*\n" +
