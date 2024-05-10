@@ -122,7 +122,7 @@ public class CalculatorActivity extends AppCompatActivity implements View.OnClic
 
                 // Display final cost
                 tvCost.setText("RM" + decimalFormat.format(finalCost));
-                tvTotalCost.setText("Total Cost: RM" + decimalFormat.format(finalCost));
+                tvTotalCost.setText("Totalo Cost: RM" + decimalFormat.format(finalCost));
 
                 // Update usage and cost values in the table
                 tvUsed200.setText(decimalFormat.format(Math.min(unitUsed, 200)));
