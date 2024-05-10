@@ -144,7 +144,7 @@ public class CalculatorActivity extends AppCompatActivity implements View.OnClic
                 tvTotalUsed.setText(String.valueOf(totalUsed));
 
                 double totalRebate = charges * rebate;
-                tvTotalRebate.setText("Total Rebate: RM" + decimalFormat.format(totalRebate));
+                tvTotalRebate.setText("Total Rebate: RM0" + decimalFormat.format(totalRebate));
                 tvTotal.setText(String.valueOf(charges));
 
             } catch (NumberFormatException nfe) {
