@@ -15,7 +15,7 @@ AzimTNB is a mobile application designed to help users estimate their electricit
 
 1. Launch the AzimTNB app on your Android device.
 2. Enter the number of electricity units used (kWh) in the designated field.
-3. Adjust the rebate percentage using the slider or input field (0% - 5%).
+3. Adjust the rebate percentage using the input field (0% - 5%).
 4. Tap the "Calculate" button to see the estimated electricity bill.
 5. Tap the "Clear" button to clear section.
 6. View the calculated bill amount displayed on the screen.
